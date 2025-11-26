@@ -26,10 +26,11 @@ Solve the [pangocairo problem](https://github.com/3b1b/manim/issues/1635) using 
 ```
 sudo apt-get install libcairo2-dev
 sudo apt-get install libpango1.0-dev
+sudo apt-get install libavformat-dev
+sudo apt-get install libavdevice-dev
 ```
 
 if it gives error then one more command needs to be run:
 ```
 pip install -I moderngl==5.5.4
 ```
-
