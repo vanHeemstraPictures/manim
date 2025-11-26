@@ -28,6 +28,8 @@ sudo apt-get install libcairo2-dev
 sudo apt-get install libpango1.0-dev
 sudo apt-get install libavformat-dev
 sudo apt-get install libavdevice-dev
+sudo apt-get install ffmpeg 
+sudo apt-get install libavcodec-extra
 ```
 
 If it gives an error then one more command needs to be run:
