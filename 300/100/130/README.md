@@ -22,7 +22,7 @@ which should now contain a directory ```manim``` in which the appropriate virtua
 
 **Troubleshooting**
 
-Solve the [pangocairo problem](https://github.com/3b1b/manim/issues/1635) using these commands:
+To solve the [pangocairo problem](https://github.com/3b1b/manim/issues/1635) using these commands:
 ```
 sudo apt-get install libcairo2-dev
 sudo apt-get install libpango1.0-dev
