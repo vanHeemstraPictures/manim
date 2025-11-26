@@ -27,6 +27,27 @@ manim -pql main.py DefaultTemplate
 
 Accept the ```Default``` when prompted.
 
+You will get an output like:
+
+```
+Manim Community v0.19.0
+
+[11/26/25 12:32:01] INFO     Animation 0 : Partial movie file written in                                                                                                           scene_file_writer.py:588
+                             '/workspaces/manim/my-project/media/videos/main/480p15/partial_movie_files/DefaultTemplate/2289379569_3901458704_223132457.mp4'                                               
+                    INFO     Animation 1 : Partial movie file written in                                                                                                           scene_file_writer.py:588
+                             '/workspaces/manim/my-project/media/videos/main/480p15/partial_movie_files/DefaultTemplate/921762691_3900508965_557880437.mp4'                                                
+                    INFO     Animation 2 : Partial movie file written in                                                                                                           scene_file_writer.py:588
+                             '/workspaces/manim/my-project/media/videos/main/480p15/partial_movie_files/DefaultTemplate/921762691_2956010123_557880437.mp4'                                                
+                    INFO     Combining to Movie file.                                                                                                                              scene_file_writer.py:739
+                    INFO                                                                                                                                                           scene_file_writer.py:886
+                             File ready at '/workspaces/manim/my-project/media/videos/main/480p15/DefaultTemplate.mp4'                                                                                     
+                                                                                                                                                                                                           
+                    INFO     Rendered DefaultTemplate                                                                                                                                          scene.py:255
+                             Played 3 animations                                                                                                                                                           
+Error: no "view" mailcap rules found for type "video/mp4"
+[11/26/25 12:32:04] INFO     Previewed File at: '/workspaces/manim/my-project/media/videos/main/480p15/DefaultTemplate.mp4' 
+```
+
 Manim will output rendering information, then create an MP4 file. Your default movie player will play the MP4 file, displaying the following animation.
 
 If you see an animation of a pink circle being drawn, congratulations! You just wrote your first Manim scene from scratch.
