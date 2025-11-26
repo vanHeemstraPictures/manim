@@ -3,7 +3,7 @@ manim
 
 > Animation engine for explanatory math videos
 
-- (References](./REFERENCES.md)
+- [References](./REFERENCES.md)
 
 ## 100 - Introduction
 
