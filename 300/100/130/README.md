@@ -30,7 +30,7 @@ sudo apt-get install libavformat-dev
 sudo apt-get install libavdevice-dev
 ```
 
-if it gives error then one more command needs to be run:
+If it gives an error then one more command needs to be run:
 ```
 pip install -I moderngl==5.5.4
 ```
