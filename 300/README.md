@@ -1,3 +1,5 @@
 # 300 - Building Our Application
 
-To Do
+## 100 - Getting Started
+
+See [README.md](./100/README.md)
