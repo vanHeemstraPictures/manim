@@ -10,6 +10,13 @@ To install Manim as a global uv tool, simply run
 uv tool install manim
 ```
 
+You should get something like:
+
+```
+manim --version
+Manim Community v0.19.0
+```
+
 after which the ```manim``` executable will be available on your global system path, without the need to activate any virtual environment or prefixing your commands with ```uv run```.
 
 Note that when using this approach, setting up your code editor to properly resolve ```import manim``` requires additional work, as the global tool environment is not automatically detected: the base path of all tool environments can be determined by running
